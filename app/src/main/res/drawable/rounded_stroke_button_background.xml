@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <stroke
+                android:width="@dimen/_1sdp"
+                android:color="@color/black" /> <!-- Stroke color (black) -->
+            <corners android:radius="@dimen/_9sdp" /> <!-- Adjust the radius to control the roundness -->
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#00000000" /> <!-- Background color in the normal state (transparent) -->
+<!--            <stroke-->
+<!--                android:width="@dimen/_1sdp"-->
+<!--                android:color="@color/black" /> &lt;!&ndash; Stroke color (black) &ndash;&gt;-->
+            <corners android:radius="@dimen/_9sdp" /> <!-- Adjust the radius to control the roundness -->
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:attr/colorControlHighlight"
+    android:duration="100"> <!-- Adjust the duration as needed -->
+
+    <!-- Ripple effect when pressed -->
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <corners android:radius="@dimen/_40sdp"/>
+            <size android:width="@dimen/_30sdp"/>
+            <size android:height="@dimen/_30sdp"/>
+        </shape>
+    </item>
+</ripple>

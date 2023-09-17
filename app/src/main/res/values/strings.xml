@@ -2,4 +2,8 @@
     <string name="app_name">Nothing Music</string>
     <string name="main_logo">Main Logo</string>
     <string name="beat_the_tunes">beat the\ntunes</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="song_name">Tum Mere Ft. Crazy Deep</string>
+    <string name="song_details">Singer : Abhishek Malhaan, Deepak | Malhan Records</string>
 </resources>

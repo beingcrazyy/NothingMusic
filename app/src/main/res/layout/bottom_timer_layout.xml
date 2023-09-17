@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/timer_dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_250sdp"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/_15sdp"
+    android:paddingTop="@dimen/_10sdp"
+    android:background="@drawable/dark_gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:textSize="@dimen/_15sdp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/inter_bold"
+        android:layout_marginBottom="@dimen/_15sdp"
+        />
+
+    <LinearLayout
+        android:id="@+id/min_15"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:foreground="@drawable/clicking_effect"
+        android:background="@drawable/timer_selection_ractangle">
+        <ImageView
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/timer"
+            android:tint="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 Minutes"
+            android:fontFamily="@font/inter_semibold"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/_5sdp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/min_30"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:foreground="@drawable/clicking_effect"
+        android:background="@drawable/timer_selection_ractangle">
+        <ImageView
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/timer"
+            android:tint="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 Minutes"
+            android:fontFamily="@font/inter_semibold"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/_5sdp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/min_45"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:foreground="@drawable/clicking_effect"
+        android:background="@drawable/timer_selection_ractangle">
+        <ImageView
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/timer"
+            android:tint="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="45 Minutes"
+            android:fontFamily="@font/inter_semibold"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/_5sdp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/min_60"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:foreground="@drawable/clicking_effect"
+        android:background="@drawable/timer_selection_ractangle">
+        <ImageView
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/timer"
+            android:tint="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60 Minutes"
+            android:fontFamily="@font/inter_semibold"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/_5sdp"/>
+    </LinearLayout>
+
+</LinearLayout>
